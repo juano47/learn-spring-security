@@ -23,6 +23,13 @@ public class ClientSecurityConfig extends WebSecurityConfigurerAdapter {
             .logout().logoutSuccessUrl("/");
     }// @formatter:on
 
+    /*
+    Aquí, estamos usando la biblioteca spring-boot-starter-oauth2-client que incluye la compatibilidad completa con
+    Refresh Token junto con las bibliotecas principales de Spring Security.
+
+    La compatibilidad con OAuth 2.0 Client se integra bien con el nuevo WebClient que reemplazará al clásico RestTemplate.
+    Resumen: no hay anda extra que hacer!, Spring maneja automaticamente el uso de RefreshToken cuando se vence el AccessToken
+     */
     @Bean
     WebClient webClient(ClientRegistrationRepository clientRegistrationRepository, OAuth2AuthorizedClientRepository authorizedClientRepository) {
         ServletOAuth2AuthorizedClientExchangeFilterFunction oauth2 = new ServletOAuth2AuthorizedClientExchangeFilterFunction(clientRegistrationRepository, authorizedClientRepository);
