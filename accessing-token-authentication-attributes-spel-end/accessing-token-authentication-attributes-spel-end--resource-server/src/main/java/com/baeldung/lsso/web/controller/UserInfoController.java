@@ -27,7 +27,12 @@ public class UserInfoController {
         return Collections.singletonMap("username", claims.get("preferred_username"));
     }
 
+
     @GetMapping("/user/info/spel2")
+     /*
+    Podemos acceder a la información del Token usando SpEL aprovechando la seguridad a nivel de método en Spring.
+    Esto nos permite aplicar guardias a rutas y métodos en Spring, usando SpEL.
+     */
     @PreAuthorize("principal?.claims['scope']?.contains('read')")
     public Map<String, Object> getReadScopeResponse() {
         return Collections.singletonMap("response", "users with the read scope can see this");
