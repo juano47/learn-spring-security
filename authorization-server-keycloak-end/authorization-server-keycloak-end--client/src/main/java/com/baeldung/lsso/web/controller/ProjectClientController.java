@@ -28,6 +28,10 @@ public class ProjectClientController {
     public String getProjects(Model model) {
         List<ProjectModel> projects = this.webClient.get()
             .uri(projectApiUrl)
+                /*
+                si no tuvieramos el interceptor en webClient, aun podemos agregar esto para que ande con OAuth:
+                .attributes(ServletOAuth2AuthorizedClientExchangeFilterFunction.clientRegistrationId("custom"))
+                 */
             .retrieve()
             .bodyToMono(new ParameterizedTypeReference<List<ProjectModel>>() {
             })

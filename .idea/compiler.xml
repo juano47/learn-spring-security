@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oauth-client-end--client" />
+        <module name="resource-server-start--auth-server" />
+        <module name="resource-server-end--client" />
+        <module name="jwt-support--resource-server" />
+        <module name="jwt-support--client" />
+        <module name="resource-server-end--auth-server" />
+        <module name="authorization-server-keycloak-end--auth-server" />
+        <module name="oauth-client-end--auth-server" />
+        <module name="resource-server-start--client" />
+        <module name="jwt-support--auth-server" />
+        <module name="resource-server-end--resource-server" />
+        <module name="authorization-server-keycloak-end--resource-server" />
+        <module name="authorization-server-keycloak-end--client" />
+        <module name="oauth-client-end--resource-server" />
+        <module name="resource-server-start--resource-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="authorization-server-keycloak-end" target="1.5" />
+      <module name="authorization-server-keycloak-end--auth-server" target="13" />
+      <module name="authorization-server-keycloak-end--client" target="13" />
+      <module name="authorization-server-keycloak-end--resource-server" target="13" />
+      <module name="authorization-server-keycloak-start" target="1.5" />
+      <module name="authorization-server-keycloak-start--auth-server" target="13" />
+      <module name="authorization-server-keycloak-start--client" target="13" />
+      <module name="authorization-server-keycloak-start--resource-server" target="13" />
+      <module name="jwt-support" target="1.5" />
+      <module name="jwt-support--auth-server" target="13" />
+      <module name="jwt-support--client" target="13" />
+      <module name="jwt-support--resource-server" target="13" />
+      <module name="learn-spring-security" target="1.5" />
+      <module name="oauth-client-end" target="1.5" />
+      <module name="oauth-client-end--auth-server" target="13" />
+      <module name="oauth-client-end--client" target="13" />
+      <module name="oauth-client-end--resource-server" target="13" />
+      <module name="oauth-client-start" target="1.5" />
+      <module name="oauth-client-start--auth-server" target="13" />
+      <module name="oauth-client-start--client" target="13" />
+      <module name="oauth-client-start--resource-server" target="13" />
+      <module name="resource-server-end" target="1.5" />
+      <module name="resource-server-end--auth-server" target="13" />
+      <module name="resource-server-end--client" target="13" />
+      <module name="resource-server-end--resource-server" target="13" />
+      <module name="resource-server-start" target="1.5" />
+      <module name="resource-server-start--auth-server" target="13" />
+      <module name="resource-server-start--client" target="13" />
+      <module name="resource-server-start--resource-server" target="13" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="authorization-server-keycloak-end--auth-server" options="-parameters" />
+      <module name="authorization-server-keycloak-end--client" options="-parameters" />
+      <module name="authorization-server-keycloak-end--resource-server" options="-parameters" />
+      <module name="authorization-server-keycloak-start--auth-server" options="-parameters" />
+      <module name="authorization-server-keycloak-start--client" options="-parameters" />
+      <module name="authorization-server-keycloak-start--resource-server" options="-parameters" />
+      <module name="jwt-support--auth-server" options="-parameters" />
+      <module name="jwt-support--client" options="-parameters" />
+      <module name="jwt-support--resource-server" options="-parameters" />
+      <module name="oauth-client-end--auth-server" options="-parameters" />
+      <module name="oauth-client-end--client" options="-parameters" />
+      <module name="oauth-client-end--resource-server" options="-parameters" />
+      <module name="oauth-client-start--auth-server" options="-parameters" />
+      <module name="oauth-client-start--client" options="-parameters" />
+      <module name="oauth-client-start--resource-server" options="-parameters" />
+      <module name="resource-server-end--auth-server" options="-parameters" />
+      <module name="resource-server-end--client" options="-parameters" />
+      <module name="resource-server-end--resource-server" options="-parameters" />
+      <module name="resource-server-start--auth-server" options="-parameters" />
+      <module name="resource-server-start--client" options="-parameters" />
+      <module name="resource-server-start--resource-server" options="-parameters" />
+    </option>
+  </component>
+</project>

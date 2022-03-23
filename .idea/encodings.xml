@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/authorization-server-keycloak-end/authorization-server-keycloak-end--auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authorization-server-keycloak-end/authorization-server-keycloak-end--auth-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authorization-server-keycloak-end/authorization-server-keycloak-end--client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authorization-server-keycloak-end/authorization-server-keycloak-end--client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authorization-server-keycloak-end/authorization-server-keycloak-end--resource-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authorization-server-keycloak-end/authorization-server-keycloak-end--resource-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jwt-support/jwt-support--auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jwt-support/jwt-support--auth-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jwt-support/jwt-support--client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jwt-support/jwt-support--client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jwt-support/jwt-support--resource-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/jwt-support/jwt-support--resource-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oauth-client-end/oauth-client-end--auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oauth-client-end/oauth-client-end--auth-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oauth-client-end/oauth-client-end--client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oauth-client-end/oauth-client-end--client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oauth-client-end/oauth-client-end--resource-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/oauth-client-end/oauth-client-end--resource-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resource-server-end/resource-server-end--auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resource-server-end/resource-server-end--auth-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resource-server-end/resource-server-end--client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resource-server-end/resource-server-end--client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resource-server-end/resource-server-end--resource-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resource-server-end/resource-server-end--resource-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resource-server-start/resource-server-start--auth-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resource-server-start/resource-server-start--auth-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resource-server-start/resource-server-start--client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resource-server-start/resource-server-start--client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resource-server-start/resource-server-start--resource-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resource-server-start/resource-server-start--resource-server/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

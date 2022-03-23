@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/authorization-server-keycloak-end/authorization-server-keycloak-end.iml" filepath="$PROJECT_DIR$/authorization-server-keycloak-end/authorization-server-keycloak-end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/authorization-server-keycloak-end/authorization-server-keycloak-end--auth-server/authorization-server-keycloak-end--auth-server.iml" filepath="$PROJECT_DIR$/authorization-server-keycloak-end/authorization-server-keycloak-end--auth-server/authorization-server-keycloak-end--auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/authorization-server-keycloak-end/authorization-server-keycloak-end--client/authorization-server-keycloak-end--client.iml" filepath="$PROJECT_DIR$/authorization-server-keycloak-end/authorization-server-keycloak-end--client/authorization-server-keycloak-end--client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/authorization-server-keycloak-end/authorization-server-keycloak-end--resource-server/authorization-server-keycloak-end--resource-server.iml" filepath="$PROJECT_DIR$/authorization-server-keycloak-end/authorization-server-keycloak-end--resource-server/authorization-server-keycloak-end--resource-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt-support/jwt-support.iml" filepath="$PROJECT_DIR$/jwt-support/jwt-support.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt-support/jwt-support--auth-server/jwt-support--auth-server.iml" filepath="$PROJECT_DIR$/jwt-support/jwt-support--auth-server/jwt-support--auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt-support/jwt-support--client/jwt-support--client.iml" filepath="$PROJECT_DIR$/jwt-support/jwt-support--client/jwt-support--client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt-support/jwt-support--resource-server/jwt-support--resource-server.iml" filepath="$PROJECT_DIR$/jwt-support/jwt-support--resource-server/jwt-support--resource-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/learn-spring-security.iml" filepath="$PROJECT_DIR$/.idea/learn-spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth-client-end/oauth-client-end.iml" filepath="$PROJECT_DIR$/oauth-client-end/oauth-client-end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth-client-end/oauth-client-end--auth-server/oauth-client-end--auth-server.iml" filepath="$PROJECT_DIR$/oauth-client-end/oauth-client-end--auth-server/oauth-client-end--auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth-client-end/oauth-client-end--client/oauth-client-end--client.iml" filepath="$PROJECT_DIR$/oauth-client-end/oauth-client-end--client/oauth-client-end--client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oauth-client-end/oauth-client-end--resource-server/oauth-client-end--resource-server.iml" filepath="$PROJECT_DIR$/oauth-client-end/oauth-client-end--resource-server/oauth-client-end--resource-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource-server-end/resource-server-end.iml" filepath="$PROJECT_DIR$/resource-server-end/resource-server-end.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource-server-end/resource-server-end--auth-server/resource-server-end--auth-server.iml" filepath="$PROJECT_DIR$/resource-server-end/resource-server-end--auth-server/resource-server-end--auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource-server-end/resource-server-end--client/resource-server-end--client.iml" filepath="$PROJECT_DIR$/resource-server-end/resource-server-end--client/resource-server-end--client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource-server-end/resource-server-end--resource-server/resource-server-end--resource-server.iml" filepath="$PROJECT_DIR$/resource-server-end/resource-server-end--resource-server/resource-server-end--resource-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource-server-start/resource-server-start--auth-server/resource-server-start--auth-server.iml" filepath="$PROJECT_DIR$/resource-server-start/resource-server-start--auth-server/resource-server-start--auth-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource-server-start/resource-server-start--client/resource-server-start--client.iml" filepath="$PROJECT_DIR$/resource-server-start/resource-server-start--client/resource-server-start--client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource-server-start/resource-server-start--resource-server/resource-server-start--resource-server.iml" filepath="$PROJECT_DIR$/resource-server-start/resource-server-start--resource-server/resource-server-start--resource-server.iml" />
+    </modules>
+  </component>
+</project>
