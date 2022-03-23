@@ -64,6 +64,8 @@ public class ProjectClientController {
         }
     }
 
+    //endpoint which will display a simple message and expects an authorized "custom" client
+    //Spring can resolve the OAuth2AuthorizedClient using @RegisteredOAuth2AuthorizedClient.
     @ResponseBody
     @GetMapping("/profile-simple")
     public String getUserProfileInfo(@RegisteredOAuth2AuthorizedClient("custom") OAuth2AuthorizedClient authorizedClient) {
