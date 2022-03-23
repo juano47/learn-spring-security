@@ -17,3 +17,8 @@ If you're not a student, you can get access to the course here: http://bit.ly/gi
    
  * lsso-module3/accessing-token-authentication-attributes-spel: **acceder a los atributos del token utilizando Spring Expression Language**
    * Postman collection: OAuth2 Beyond the Basics - The Resource Server / Accessing Bearer Token Attributes using SpEL
+ 
+ * lsso-module4/refresh-token
+   * Postman collection: OAuth2 Beyond the Basics - The Client / Refreshing a Token
+ 
+ * lsso-module4/testing-oauth2-clients: **soporte que brinda Spring Security para probar los clientes OAuth2**
