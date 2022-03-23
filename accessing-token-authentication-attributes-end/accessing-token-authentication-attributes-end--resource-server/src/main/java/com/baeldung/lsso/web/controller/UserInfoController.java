@@ -12,6 +12,7 @@ import java.util.Map;
 @RestController
 public class UserInfoController {
 
+    //Se puede acceder a la info del token con este endpoint
     @GetMapping("/user/info")
     public Map<String, Object> getUserInfo(Authentication authentication) {
         Jwt jwt = (Jwt) authentication.getPrincipal();
@@ -20,6 +21,8 @@ public class UserInfoController {
     }
 
     @GetMapping("/user/info/direct")
+    //También podemos obtener una referencia al Principal directamente usando la anotación @AuthenticationPrincipal
+    //mejor usar esto para evitar la conversion a Jwt que sucede en la funcion anterior
     public Map<String, Object> getDirectUserInfo(@AuthenticationPrincipal Jwt principal) {
         String username = (String) principal.getClaims().get("preferred_username");
 

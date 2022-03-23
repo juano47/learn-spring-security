@@ -31,6 +31,12 @@ public class ProjectController {
         this.projectService = projectService;
     }
 
+    /*
+    Por ejemplo, si queremos permitir el acceso al método findOne aquí en el Controlador solo a los Clientes a los que
+    se les ha otorgado el alcance del correo electrónico , podemos agregar la anotación @PreAuthorize , junto con a
+    la regla hasAuthority con el alcance esperado, con el prefijo correspondiente:
+     */
+    //este endpoint en realidad necesita 2 scopes! SCOPE_email y SCOPE_read que fue seteado en ResourceSecurityConfig
     @PreAuthorize("hasAuthority('SCOPE_email')")
     @GetMapping(value = "/{id}")
     public ProjectDto findOne(@PathVariable Long id) {
