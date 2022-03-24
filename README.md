@@ -24,5 +24,7 @@ If you're not a student, you can get access to the course here: http://bit.ly/gi
  * lsso-module4/testing-oauth2-clients: **soporte que brinda Spring Security para probar los clientes OAuth2**
  * lsso-module5/oauth2-and-SPAs: **Aplicaciones SPA tratada como pública**
  * lsso-module5/client-credentials-flow: **Auth con credenciales de usuario para comunicacion entre APIs**v
- *  lsso-module5/oauth2-and-openid-connect: **obtener detalles del perfil de usuario con OpenId**
- *  lsso-module5/legacy-stack-authorization-server: **server de auth junto al server de recursos, o server de auth brindado por Spring Boot (@EnableAuthorizationServer)**
+ * lsso-module5/oauth2-and-openid-connect: **obtener detalles del perfil de usuario con OpenId**
+ * lsso-module5/legacy-stack-authorization-server: **server de auth junto al server de recursos, o server de auth brindado por Spring Boot (@EnableAuthorizationServer)**
+ * lsso-module6/oauth-in-a-microservice-application: **uso de Gateway para securizar un grupo de microservicios**
+ * lsso-module6/sharing-principal-information: **uso de Gateway + uso de scopes en los servidores de recursos**
