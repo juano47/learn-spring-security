@@ -19,6 +19,7 @@ public class ResourceSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {// @formatter:off
+        //necesario habiliar cors al estar el client en otro dominio/puerto!
         http.cors(withDefaults())
             .authorizeRequests()
               .antMatchers(HttpMethod.GET, "/api/projects/**")
