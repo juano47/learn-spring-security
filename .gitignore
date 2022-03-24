@@ -33,3 +33,6 @@
 /verify-validate-claims-jwt/verify-validate-claims-jwt--auth-server/verify-validate-claims-jwt--auth-server.iml
 /verify-validate-claims-jwt/verify-validate-claims-jwt--client/verify-validate-claims-jwt--client.iml
 /verify-validate-claims-jwt/verify-validate-claims-jwt--resource-server/verify-validate-claims-jwt--resource-server.iml
+/oauth2-and-SPAs/oauth2-and-SPAs--client/target
+/oauth2-and-SPAs/oauth2-and-SPAs--auth-server/target
+/oauth2-and-SPAs/oauth2-and-SPAs--resource-server/target
